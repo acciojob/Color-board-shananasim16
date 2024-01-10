@@ -1,1 +1,17 @@
+
 /*  your css code here. If applicable */
+.container {
+    display: grid;
+    grid-template-columns: repeat(40, 1fr);
+    grid-gap: 1px;
+    width: 800px;
+	background-color:black;
+  }
+  
+  .square {
+    width: 30px;
+    height: 30px;
+    background-color:rgb(29, 29, 29);
+    transition: background-color 1s ease;
+  }
+  
